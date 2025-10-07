@@ -10,14 +10,17 @@
 
 .header {
   background-color: black;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 15px;
   border: solid 3px red;
 }
 
 .menu {
   width: 20px;
-  display: flex;
-  float: right;
-  padding: 5px;
   border: solid 3px red;
 }
 
