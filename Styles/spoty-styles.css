@@ -1,105 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Roboto;
+}
+
 .header {
-    background-color: black;
+  background-color: black;
 }
 
 .menu {
-    width: 20px;
-    display: flex;
-    float: right;
-    padding: 5px;
+  width: 20px;
+  display: flex;
+  float: right;
+  padding: 5px;
 }
 
 .logo {
-    width: 60px;
-    padding: 5px;
+  width: 60px;
+  padding: 5px;
 }
 
 .presentation {
-    background-color: rgb(138, 193, 230);
-    padding-bottom: 30px;
+  background-color: rgb(138, 193, 230);
+  padding-bottom: 30px;
 }
 
 button {
-    color: white;
-    background-color: rgb(69, 219, 64);
-    border-radius: 100px;
-    border-color: rgb(69, 219, 64);
-    position: relative;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
+  color: white;
+  background-color: rgb(69, 219, 64);
+  border-radius: 100px;
+  border-color: rgb(69, 219, 64);
+  position: relative;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 h1 {
-    color: white;
-    border-color: white;
-    font-size: 50px;
-    display: flex;
-    align-content: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  color: white;
+  border-color: white;
+  font-size: 50px;
+  display: flex;
+  align-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .info {
-    color: white;
-    border-color: white;
-    font-weight: bold;
-    display: flex;
-    align-content: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 20px;
+  color: white;
+  border-color: white;
+  font-weight: bold;
+  display: flex;
+  align-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
 
 }
 
 span {
-    color: white;
-    border-color: white;
-    font-size: 12px;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    padding-top: 10px;
-    padding-bottom: 0px;
+  color: white;
+  border-color: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
+
 h2 {
-    font-size:30px ;
+  font-size: 30px;
 }
+
 .advantages {
-    font-size: 12px;
+  font-size: 12px;
+  border: solid 3px red;
+  background-color: blue;
 }
+
 .icons {
-     width: 100px;
-    padding: 5px;
+  width: 100px;
+  padding: 5px;
 }
+
 .footer {
-    background-color: black;
-    color: #aaa;
-    position: relative;
+  background-color: black;
+  color: #aaa;
+  position: relative;
 }
+
 .left {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    margin-top: 60px;
-    margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 15px;
 }
+
 .up {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
+
 .down {
-    display: flex;
-    margin-top: 20px;
+  display: flex;
+  margin-top: 20px;
 }
+
 .right {
-    display: flex;
-    margin-right: 15px;
-     margin-top: 20px;
-    text-decoration: none;
-    flex-direction: column;
-    align-items: flex-end;
+  display: flex;
+  margin-right: 15px;
+  margin-top: 20px;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: flex-end;
 }
